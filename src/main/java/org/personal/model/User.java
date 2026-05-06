@@ -1,12 +1,12 @@
 package org.personal.model;
 
 
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.relational.core.mapping.Table;
 
-@Table(name = "user_account")
+@Table("user_account")
 public class User {
     @Id
     @Getter
