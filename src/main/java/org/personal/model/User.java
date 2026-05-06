@@ -6,7 +6,7 @@ import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
 
-@Table(schema = "user_account")
+@Table(name = "user_account")
 public class User {
     @Id
     @Getter
